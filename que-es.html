@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es un sitio web?</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Unidad Didáctica: Introducción a la Web</h1>
+        <nav>
+            <ul class="menu-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="que-es.html">¿Qué es un sitio web?</a></li>
+                <li><a href="html-css.html">HTML y CSS</a></li>
+                <li><a href="publicacion.html">Publicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="card">
+        <h2>¿Qué es un sitio web?</h2>
+        <p>💡 Una <strong>página web</strong> es un documento que se muestra en Internet y puede contener texto, imágenes, videos o enlaces.</p>
+        <p>🖥️ Un <strong>sitio web</strong> es un conjunto de páginas web relacionadas entre sí, que comparten un mismo dominio.</p>
+        <p>🌍 Internet funciona conectando millones de dispositivos mediante redes. Cuando visitamos un sitio web, nuestro navegador pide información a un servidor que la envía a través de Internet.</p>
+        <p>🔎 Los <strong>navegadores</strong> interpretan el código de la web y lo muestran en pantalla. Los <strong>servidores</strong> almacenan las páginas y responden a estas peticiones.</p>
+        <p>📡 La información viaja por la red en paquetes de datos que se transmiten mediante cables, fibra óptica o redes inalámbricas.</p>
+        <img src="internet.jpg" alt="Funcionamiento de Internet" class="imagen">
+        <img src="imagenes/canva.png"> <p> </section>
+<section class="card">
+        <h2> Conceptos importantes:</h2>
+        <ul>
+<li><h3>🌐 1. Dirección IP</h3><p>
+
+Una dirección IP es como la dirección postal de un dispositivo en Internet.
+
+Cada móvil, ordenador o servidor conectado a la red tiene una IP para poder enviar y recibir información.
+
+Ejemplo:
+
+192.168.1.15
+
+o en formato moderno IPv6:
+
+2001:0db8:85a3:0000:0000:8a2e:0370:7334 <p>
+📌 ¿Para qué sirve?<p>
+
+Sirve para identificar:
+
+Tu ordenador
+Una web
+Un servidor
+Un router
+
+Cuando visitas una página web, tu dispositivo necesita saber:
+
+“¿A qué dirección envío mi petición?”
+
+Y usa la IP.<p>
+
+🧠 Ejemplo real<p>
+
+Cuando entras en una web:
+
+www.google.com
+
+En realidad tu ordenador termina comunicándose con una IP parecida a:
+
+142.250.184.206
+
+<li><h3> 🧭 2. DNS</h3><p>
+
+El DNS (Domain Name System) es como la agenda telefónica de Internet.
+
+Convierte nombres fáciles de recordar:
+
+google.com
+
+en direcciones IP reales:
+
+142.250.184.206 <p>
+📌 ¿Por qué existe?<p>
+
+Porque los humanos recordamos nombres fácilmente, pero las máquinas trabajan con IPs.<p>
+
+🔄 Cómo funciona<p>
+
+Escribes:
+
+youtube.com.
+
+Tu ordenador pregunta al DNS:
+
+“¿Qué IP tiene youtube.com?”
+
+El DNS responde:
+
+142.251.xxx.xxx
+Tu navegador ya puede conectarse al servidor correcto.<p>
+
+<li><h3>🔒 3. Protocolos HTTP y HTTPS</h3><p>
+
+Son las reglas que permiten que navegador y servidor se entiendan.<p>
+
+📡 HTTP<p>
+
+Significa:
+
+HyperText Transfer Protocol.
+
+Es el protocolo básico para cargar páginas web.<p>
+
+Cuando visitas una web, tu navegador hace peticiones HTTP como:<p>
+
+GET /index.html<p>
+❌ Problema de HTTP<p>
+
+Los datos viajan “en abierto”.<p>
+
+Eso significa que alguien podría interceptarlos.<p>
+
+🔐 HTTPS<p>
+
+La versión segura de HTTP.<p>
+
+La “S” significa:
+
+Secure<p>
+
+Usa cifrado mediante SSL/TLS.<p>
+
+📌 ¿Qué protege?<ul>
+<li>Contraseñas
+<li>Tarjetas bancarias
+<li>Chats
+<li>Datos personales
+</ul><p>
+🧠 Ejemplo<p>
+HTTP:<p>
+http://ejemplo.com
+
+🔓 Sin cifrar.<p>
+
+HTTPS:<p>
+https://ejemplo.com
+
+🔒 Cifrado y seguro.
+
+<li><h3>📡 4. Servidores y clientes</h3>
+
+Internet funciona principalmente con este modelo:
+
+Cliente ⇄ Servidor<p>
+💻 Cliente<p>
+
+Es quien solicita información.<p>
+
+Ejemplos:<p><ul>
+
+<li>Tu navegador
+<li>Tu móvil
+<li>Una app
+</ul><p>
+Cuando haces clic en una web, el cliente pide datos.<p>
+
+🖥️ Servidor<p>
+
+Es el ordenador que responde.<p>
+
+Guarda:<p><ul>
+
+<li>páginas web
+<li>imágenes
+<li>bases de datos
+<li>vídeos
+</ul><p>
+y las envía cuando alguien las solicita.<p>
+
+🧠 Ejemplo completo<p>
+
+Tú escribes:
+
+netflix.com<p>
+
+Entonces ocurre esto:<p><ul>
+
+<li>Tu navegador (cliente) pregunta al DNS.
+<li>Obtiene la IP de Netflix.
+<li>Se conecta al servidor.
+<li>Envía una petición HTTPS.
+<li>El servidor responde enviando:<ul>
+<li>HTML
+<li>imágenes
+<li>vídeos
+<li>datos
+</ul>
+<li>Tu navegador muestra la página.
+</ul>
+
+<li><h3>📦 5. Transferencia de datos por la red</h3><p>
+
+Cuando navegas por Internet, los datos NO viajan como un bloque gigante.<p>
+
+Se dividen en pequeños fragmentos llamados:<p><ul>
+
+<li>Paquetes<p>
+ 📦 Cada paquete contiene:<p><ul>
+  <li>Parte de la información
+  <li>Dirección origen
+  <li>Dirección destino
+  <li>Orden del paquete
+  </ul>
+<li>🚚 Viaje de los paquetes<p>
+
+Los paquetes pasan por:<p><ul>
+
+ <li>routers
+ <li>cables
+ <li>antenas
+ <li>proveedores de Internet
+ <li>servidores
+</ul><p>
+hasta llegar al destino.<p>
+
+🧠 Ejemplo simple<p>
+
+Si ves un vídeo de YouTube:<p><ul>
+
+ <li>El vídeo se divide en miles de paquetes.
+ <li>Los paquetes viajan por Internet.
+ <li>Tu dispositivo los recibe.
+ <li>Los vuelve a unir.
+ <li>Ves el vídeo continuamente.
+</ul><p>
+🔗 Cómo se conecta todo<p>
+
+Aquí tienes el flujo completo simplificado:<p>
+
+1. Escribes una web<p>
+        ↓<p>
+2. DNS busca la IP<p>
+        ↓<p>
+3. Cliente se conecta al servidor<p>
+        ↓<p>
+4. Usa HTTP/HTTPS<p>
+        ↓<p>
+5. Los datos viajan en paquetes<p>
+        ↓<p>
+6. La web aparece en pantalla<p>
+</section>
+<section class="card">
+        <h2>Tipos de paginas web</h2>
+        <ul>
+         <li><h3> Estaticas:</h3>
+          Son aquellas que no cambian. Siempre muestran el mismo contenido.<p>Se realizan en lenguaje HTML.
+        <li><h3> Dinamicas:</h3>
+          Son paginas que daran un resultado diferente cada vez que entres sin alterar el codigo dependiendo de la actuacion del usuario.<p> Para realizarlo, combina: <p><ul>
+          <li> HTML
+          <li> Lenguajes dinamicos: ASP.NET, Java, PHP o JavaScript.
+          </ul>
+          </ul> </section>
+<section class="card">
+        <h2>Funcionamiento:</h2>
+  <img src="imagenes/funcionamiento.png">
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Unidad Didáctica: Introducción a la Web</p>
+    </footer>
+</body>
+</html>
